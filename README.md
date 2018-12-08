@@ -47,10 +47,10 @@ Display: inline does not take up the full width of the page and can be placed be
 
 3. What are the 4 areas of the box model?
 
-1. Content
-2. Padding
-3. Border
-4. Margin
+- Content
+- Padding
+- Border
+- Margin
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?

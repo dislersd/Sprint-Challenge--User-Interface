@@ -115,8 +115,36 @@ p {
     padding-bottom: 20px;  
 }
 
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .box1 {
-    background: teal !important
+    background: teal !important;
 }
 .box2 {
     background: gold !important
@@ -144,34 +172,6 @@ p {
 }
 .box10 {
     background: dodgerblue !important
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    width: 100%;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -247,6 +247,18 @@ footer nav a {
     margin-bottom: 20px;
 }
 
+.bod a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.button:hover {
+    animation-name: colorchange2;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
 h2 {
     font-weight: bold;
 }
@@ -283,4 +295,9 @@ nav a:hover {
 @keyframes colorchange {
 	from {background: whitesmoke}
 	to {background:#fae;}
+}
+
+@keyframes colorchange2 {
+	from {background: lightslategray}
+	to {background:lightcoral;}
 }

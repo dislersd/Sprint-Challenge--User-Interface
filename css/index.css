@@ -109,13 +109,41 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content .boxes div {
-    background: teal;
+.box1 {
+    background: teal !important
+}
+.box2 {
+    background: gold !important
+}
+.box3 {
+    background: cadetblue !important
+}
+.box4 {
+    background: coral !important
+}
+.box5 {
+    background: crimson !important
+}
+.box6 {
+    background: forestgreen !important
+}
+.box7 {
+    background: darkorchid !important
+}
+.box8 {
+    background: hotpink !important
+}
+.box9 {
+    background: indigo !important
+}
+.box10 {
+    background: dodgerblue !important
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {

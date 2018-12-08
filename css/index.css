@@ -240,3 +240,16 @@ footer nav a {
 h2 {
     font-weight: bold;
 }
+
+
+
+nav a:hover {
+    animation-name: colorchange;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    box-shadow: -2px 2px lightslategray;
+}
+@keyframes colorchange {
+	from {background: whitesmoke}
+	to {background:#fae;}
+}

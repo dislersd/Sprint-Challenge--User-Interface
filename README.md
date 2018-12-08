@@ -38,6 +38,9 @@ Semantic HTML is code that is descriptive about the elements and structure of a 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+- One big difference is that block elements start on a new line where inline does not.
+- Another difference is you cannot change the height or width of an inline element using css whereas block elements you can.
+
 Display: block gives your element its own row on the webpage. The block element will take the whole width of the page and other elements will go above or below it. A block element always starts on a new line.
 
 Display: inline does not take up the full width of the page and can be placed beside other inline elements. Inline elements can be inside paragraphs and other element and not intterupt the flow of things. 

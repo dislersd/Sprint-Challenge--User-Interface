@@ -32,10 +32,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+* * *
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
-* * *
 
 Semantic HTML is code that is descriptive about the elements and structure of a webpage. It gives meaning to the content on your page. For example The footer of your page could be put inside of a <footer> tag and the header portion inside a <header> tag.
 
@@ -43,16 +42,12 @@ Semantic HTML is code that is descriptive about the elements and structure of a 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-* * *
-
 - One big difference is that block elements start on a new line where inline does not.
 - Another difference is you cannot change the height or width of an inline element using css whereas block elements you can.
 
 * * *
 
 3. What are the 4 areas of the box model?
-
-* * *
 
 - Content
 - Padding
@@ -63,15 +58,11 @@ Semantic HTML is code that is descriptive about the elements and structure of a 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-* * *
-
 Cross Axis.
 
 * * *
 
 5. Explain why git is valuable to a team of developers.
-
-* * *
 
 Git is valuable to a team becuase it allows version control and branching. If one member wants to work on a feature of whatever the team is buiding they can use git to do that without effecting the master branch of the code. With version control the team can always revert the code back to an older version if something goes wrong with a new version.
 

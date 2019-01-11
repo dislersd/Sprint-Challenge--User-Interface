@@ -58,7 +58,6 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -71,8 +70,8 @@ nav {
     width: 100%;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+	align-items: baseline;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -87,6 +86,7 @@ nav a {
 
 .topimg {
     margin: 20px auto;
+    width: 100%;
 }
 
 p {
@@ -94,8 +94,8 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 20px auto;
+    width: 80%;
+    margin: 20px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -211,7 +211,6 @@ footer nav a {
 
 .about-page header {
     border-bottom: 1px dashed black;
-    margin: 20px;
 }
 
 .bod {
@@ -263,6 +262,31 @@ h2 {
     font-weight: bold;
 }
 
+/* PRODUCT PAGE */
+.prodbod {
+    margin: 10px auto;
+}
+
+.prodbod section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed #000;
+}
+
+.prodbod section h2 {
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.prodbod section img {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.prodbod section a .button {
+    margin: 40px auto;
+    color: black;
+}
 
 /* CONTACT PAGE */
 
@@ -300,4 +324,85 @@ nav a:hover {
 @keyframes colorchange2 {
 	from {background: lightslategray}
 	to {background:lightcoral;}
+}
+
+@media (max-width: 908px) {
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav {
+        width: 80%;
+    }
+}
+
+@media (max-width: 712px) {
+    nav {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    nav a {
+        margin: 0 auto;
+        border-bottom: 2px solid #000;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    footer nav {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0;
+        width: 100%;
+    }
+
+    .bod {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-page .bod section {
+        width: 90%;
+    }
+
+    .about-page .bod section a .button {
+        margin: 40px auto;
+    }
+
+    .prodbod section a .button {
+        margin: 40px auto;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+    .bottom-content div {
+        margin: 10px auto;
+    }
+
+    #home {
+        border-top: 2px solid #000;
+    }
 }

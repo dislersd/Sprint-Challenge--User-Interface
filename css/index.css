@@ -262,6 +262,32 @@ h2 {
     font-weight: bold;
 }
 
+/* PRODUCT PAGE */
+.prodbod {
+    margin: 10px auto;
+}
+
+.prodbod section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed #000;
+}
+
+.prodbod section h2 {
+    border-bottom: 1px solid #000;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.prodbod section img {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.prodbod section a .button {
+    margin: 40px auto;
+    color: black;
+}
 
 /* CONTACT PAGE */
 
@@ -334,13 +360,40 @@ nav a:hover {
     h1 {
         display: flex;
         justify-content: center;
-        padding: 20px;
-        border-bottom: 2px solid #000;
         width: 100%;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0 auto;
     }
 
     .container {
         margin: 0;
         width: 100%;
+    }
+
+    .bod {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-page .bod section {
+        width: 90%;
+    }
+
+    .about-page .bod section a .button {
+        margin: 40px auto;
+    }
+
+    .prodbod section a .button {
+        margin: 40px auto;
+    }
+
+    #home {
+        border-top: 2px solid #000;
     }
 }
